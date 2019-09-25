@@ -32,7 +32,7 @@ People _love_ thorough bug reports. Not even kidding.
 
 ## Fixing bugs & implementing features
 
-We Use [Github Flow](https://guides.github.com/introduction/flow/index.html), so
+We use [Github flow](https://guides.github.com/introduction/flow/index.html), so
 most code changes happen through Pull Requests.
 
 [Pull Requests](https://help.github.com/en/articles/about-pull-requests) are the

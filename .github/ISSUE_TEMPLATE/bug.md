@@ -14,7 +14,7 @@ that is marked as REQUIRED below, or it may be closed.
 - A quick summary and/or background
 - Steps to reproduce
   - Be specific!
-  - Give sample code if you can. Try to includes sample code that *anyone* could run to reproduce what I was seeing
+  - Give sample code if you can. Try to include sample code that *anyone* could run to reproduce what you were seing
 - What you expected would happen
 - What actually happens
 - Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
@@ -33,9 +33,8 @@ Create a test case if possible
 -->
 
 Steps to reproduce:
+
 1.
-2.
-3.
 
 ## Expected behavior
 

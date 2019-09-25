@@ -2,7 +2,7 @@
 
 ## X.Y.Z - 20YY-MM-DD
 
-Short & conscice description
+Short & concise description
 
 ### 💥 Breaking changes
 
@@ -14,4 +14,4 @@ Short & conscice description
 
 ### Internal changes
 
-(If worth mentionning)
+(If worth mentioning)

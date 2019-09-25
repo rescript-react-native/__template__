@@ -23,10 +23,11 @@
 # `@reason-react-native/__template__`
 
 [![Build Status](https://github.com/reason-react-native/reason-react-native/workflows/Build/badge.svg)](https://github.com/reason-react-native/reason-react-native/actions)
-[![Version](https://img.shields.io/npm/v/@reason-react-native/something.svg)](https://www.npmjs.com/@reason-react-native/something)
+[![Version](https://img.shields.io/npm/v/@reason-react-native/__template__.svg)](https://www.npmjs.com/@reason-react-native/__template__)
 [![Chat](https://img.shields.io/discord/235176658175262720.svg?logo=discord&colorb=blue)](https://reasonml-community.github.io/reason-react-native/discord/)
 
-ReasonML / BuckleScript bindings for
+[ReasonML](https://reasonml.github.io) /
+[BuckleScript](https://bucklescript.github.io) bindings for
 [`@react-native-community/something`](https://github.com/react-native-community/something).
 
 Exposed as `ReactNativeSomething` module.
@@ -42,12 +43,12 @@ is properly installed & configured by following their installation instructions,
 you can install the bindings:
 
 ```console
-npm install @reason-react-native/something
+npm install @reason-react-native/__template__
 # or
-yarn add @reason-react-native/something
+yarn add @reason-react-native/__template__
 ```
 
-`@reason-react-native/something` should be added to `bs-dependencies` in your
+`@reason-react-native/__template__` should be added to `bs-dependencies` in your
 `bsconfig.json`. Something like
 
 ```diff
@@ -57,7 +58,7 @@ yarn add @reason-react-native/something
     "reason-react",
     "reason-react-native",
     // ...
-+    "@reason-react-native/something"
++    "@reason-react-native/__template__"
   ],
   //...
 }

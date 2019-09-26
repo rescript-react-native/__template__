@@ -47,7 +47,7 @@ To make a pull request, you need to:
 2. Clone it and install dependencies
 
 ```console
-git clone https://github.com/reason-react-native/__template__`
+git clone https://github.com/reason-react-native/__template__
 cd __template__
 yarn
 ```

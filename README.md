@@ -6,6 +6,7 @@
 
   - `@reason-react-native/__template__`
   - `https://github.com/reason-react-native/__template__`
+  - `__template__`
   - `@react-native-community/something`
   - `https://github.com/react-native-community/something`
   - `ReactNativeSomething`. If you have more than a file exposed, you should

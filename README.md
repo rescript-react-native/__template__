@@ -57,7 +57,7 @@ yarn add @reason-react-native/__template__
   //...
   "bs-dependencies": [
     "reason-react",
-    "@reason-react-native/react-native",
+    "reason-react-native",
     // ...
 +    "@reason-react-native/__template__"
   ],

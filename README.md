@@ -39,7 +39,7 @@ Exposed as `ReactNativeSomething` module.
 ## Installation
 
 When
-[`@react-native-community/something`](`https://github.com/react-native-community/something`)
+[`@react-native-community/something`](https://github.com/react-native-community/something)
 is properly installed & configured by following their installation instructions,
 you can install the bindings:
 
@@ -90,10 +90,12 @@ releases.
 
 ## Contribute
 
-Read the [contribution guidelines](https://github.com/reason-react-native/.github/blob/master/CONTRIBUTING.md) before contributing.
+Read the
+[contribution guidelines](https://github.com/reason-react-native/.github/blob/master/CONTRIBUTING.md)
+before contributing.
 
 ## Code of Conduct
 
 We want this community to be friendly and respectful to each other. Please read
-[our full code of conduct](https://github.com/reason-react-native/.github/blob/master/CODE_OF_CONDUCT.md) so that you can understand what
-actions will and will not be tolerated.
+[our full code of conduct](https://github.com/reason-react-native/.github/blob/master/CODE_OF_CONDUCT.md)
+so that you can understand what actions will and will not be tolerated.

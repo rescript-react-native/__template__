@@ -1,5 +1,7 @@
-**How to use this template**
+## How to use this template
 
+- ⚠️ **Don't fork this repository.** Use the "Use this template" green GitHub
+  button.
 - Put your bindings in `src/ReactNativeSomething` & rename accordingly or use
   `bsconfig.json` `"namespace"` field (more on this below),
 - Update all occurences of

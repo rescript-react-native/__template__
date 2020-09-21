@@ -40,8 +40,7 @@
     "prettier": "^2.0.0"
   },
   "prettier": {
-    "trailingComma": "all",
-    "proseWrap": "always"
+    "trailingComma": "all"
   },
   "lint-staged": {
     "*.{md,json,js,css}": [

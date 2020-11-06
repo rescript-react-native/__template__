@@ -12,7 +12,7 @@
   - `@react-native-community/something`
   - `https://github.com/react-native-community/something`
   - `ReactNativeSomething`. If you have more than a file exposed, you should
-    consider using BuckleScript custom namespace by adjusting `bsconfig.json`
+    consider using ReScript custom namespace by adjusting `bsconfig.json`
     and adding a `"namespace": "react-native-something"` (note that it will be
     converted to `ReactNativeSomething`)
 
@@ -29,14 +29,13 @@
 [![Version](https://img.shields.io/npm/v/@reason-react-native/__template__.svg)](https://www.npmjs.com/@reason-react-native/__template__)
 [![Chat](https://img.shields.io/discord/235176658175262720.svg?logo=discord&colorb=blue)](https://reason-react-native.github.io/discord/)
 
-[ReasonML](https://reasonml.github.io) /
-[BuckleScript](https://bucklescript.github.io) bindings for
+[ReScript](https://rescript-lang.org) / [Reason](https://reasonml.github.io) bindings for
 [`@react-native-community/something`](https://github.com/react-native-community/something).
 
 Exposed as `ReactNativeSomething` module.
 
-`@reason-react-native/__template__` X.y._ means it's compatible with
-`@react-native-community/something` X.y._
+`@reason-react-native/__template__` X.y.\* means it's compatible with
+`@react-native-community/something` X.y.\*
 
 ## Installation
 
@@ -52,7 +51,7 @@ yarn add @reason-react-native/__template__
 ```
 
 `@reason-react-native/__template__` should be added to `bs-dependencies` in your
-`bsconfig.json`. Something like
+`bsconfig.json`:
 
 ```diff
 {

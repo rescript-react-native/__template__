@@ -2,21 +2,21 @@
 
 - ⚠️ **Don't fork this repository.** Use the "Use this template" green GitHub
   button.
-- Put your bindings in `src/ReactNativeSomething` & rename accordingly or use
+- Put your bindings in `src/ReactNativeXxxxxxxxxx` & rename accordingly or use
   `bsconfig.json` `"namespace"` field (more on this below),
 - Update all occurences of
 
   - `@reason-react-native/__template__`
   - `https://github.com/reason-react-native/__template__`
   - `__template__`
-  - `@react-native-community/something`
-  - `https://github.com/react-native-community/something`
-  - `ReactNativeSomething`. If you have more than a file exposed, you should
+  - `react-native-XXXXXXXXXX`
+  - `https://github.com/OWNER/react-native-XXXXXXXXXX`
+  - `ReactNativeXxxxxxxxxx`. If you have more than a file exposed, you should
     consider using ReScript custom namespace by adjusting `bsconfig.json`
     and adding a `"namespace": "react-native-something"` (note that it will be
-    converted to `ReactNativeSomething`)
+    converted to `ReactNativeXxxxxxxxxx`)
 
-- Add your `@react-native-community/something` (adjusted) in `peerDependencies`
+- Add your `react-native-XXXXXXXXXX` (adjusted) in `peerDependencies`
   & `devDependencies` section
 - Adjust the changelog (and/or clean it)
 - Remove this part ⬆ & keep everything below ⬇
@@ -30,17 +30,17 @@
 [![Chat](https://img.shields.io/discord/235176658175262720.svg?logo=discord&colorb=blue)](https://reason-react-native.github.io/discord/)
 
 [ReScript](https://rescript-lang.org) / [Reason](https://reasonml.github.io) bindings for
-[`@react-native-community/something`](https://github.com/react-native-community/something).
+[`react-native-XXXXXXXXXX`](https://github.com/OWNER/react-native-XXXXXXXXXX).
 
-Exposed as `ReactNativeSomething` module.
+Exposed as `ReactNativeXxxxxxxxxx` module.
 
 `@reason-react-native/__template__` X.y.\* means it's compatible with
-`@react-native-community/something` X.y.\*
+`react-native-XXXXXXXXXX` X.y.\*
 
 ## Installation
 
 When
-[`@react-native-community/something`](https://github.com/react-native-community/something)
+[`react-native-XXXXXXXXXX`](https://github.com/OWNER/react-native-XXXXXXXXXX)
 is properly installed & configured by following their installation instructions,
 you can install the bindings:
 
@@ -70,13 +70,13 @@ yarn add @reason-react-native/__template__
 
 ### Types
 
-#### `ReactNativeSomething.t`
+#### `ReactNativeXxxxxxxxxx.t`
 
 ...
 
 ### Methods
 
-#### `ReactNativeSomething.method`
+#### `ReactNativeXxxxxxxxxx.method`
 
 ...
 

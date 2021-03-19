@@ -1,4 +1,4 @@
-# Changelog of `@reason-react-native/__template__`
+# Changelog of `@rescript-react-native/__template__`
 
 ## X.Y.Z - 20YY-MM-DD
 

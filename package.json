@@ -15,7 +15,8 @@
   "files": [
     "*.md",
     "bsconfig.json",
-    "src/**/*.re",
+    "src/**/*.res",
+    "src/**/*.resi",
     "src/**/*.js",
     "!src/**/*.bs.js"
   ],

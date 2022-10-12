@@ -10,6 +10,7 @@
     "react": "17.0.2"
   },
   "repository": "https://github.com/rescript-react-native/__template__.git",
+  "funding": "https://github.com/rescript-react-native/rescript-react-native?sponsor=1",
   "license": "MIT",
   "keywords": [
     "rescript",
@@ -36,7 +37,7 @@
     "release": "npmpub"
   },
   "devDependencies": {
-    "rescript": "^9.1.4",
+    "rescript": "^10.0.0",
     "husky": "^4.0.0",
     "lint-staged": "^10.0.0",
     "npmpub": "^5.0.0",

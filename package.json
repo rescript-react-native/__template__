@@ -38,8 +38,8 @@
   },
   "devDependencies": {
     "rescript": "^10.0.0",
-    "husky": "^4.0.0",
-    "lint-staged": "^10.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.1",
     "npmpub": "^5.0.0",
     "prettier": "^2.0.0"
   },

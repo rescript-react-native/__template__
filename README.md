@@ -3,7 +3,7 @@
 - ⚠️ **Don't fork this repository.** Use the "Use this template" green GitHub
   button.
 - Put your bindings in `src/ReactNativeXxxxxxxxxx` & rename accordingly or use
-  `bsconfig.json` `"namespace"` field (more on this below),
+  `rescript.json` `"namespace"` field (more on this below),
 - Update all occurences of
 
   - `@rescript-react-native/__template__`
@@ -12,7 +12,7 @@
   - `react-native-XXXXXXXXXX`
   - `https://github.com/OWNER/react-native-XXXXXXXXXX`
   - `ReactNativeXxxxxxxxxx`. If you have more than a file exposed, you should
-    consider using ReScript custom namespace by adjusting `bsconfig.json`
+    consider using ReScript custom namespace by adjusting `rescript.json`
     and adding a `"namespace": "react-native-something"` (note that it will be
     converted to `ReactNativeXxxxxxxxxx`)
 
@@ -51,7 +51,7 @@ yarn add @rescript-react-native/__template__
 ```
 
 `@rescript-react-native/__template__` should be added to `bs-dependencies` in your
-`bsconfig.json`:
+`rescript.json`:
 
 ```diff
 {

@@ -7,7 +7,7 @@
   },
   "peerDependencies": {},
   "overrides": {
-    "react": "17.0.2"
+    "react": "18.0.0"
   },
   "repository": "https://github.com/rescript-react-native/__template__.git",
   "funding": "https://github.com/rescript-react-native/rescript-react-native?sponsor=1",
@@ -18,13 +18,14 @@
   ],
   "files": [
     "*.md",
-    "bsconfig.json",
+    "rescript.json",
     "src/**/*.res",
     "src/**/*.resi",
     "src/**/*.js",
     "!src/**/*.bs.js"
   ],
   "scripts": {
+    "prepare": "husky install",
     "format:most": "prettier --write \"**/*.{md,json,js,css}\"",
     "format:res": "rescript format -all",
     "format": "npm run format:most && npm run format:res",
@@ -37,9 +38,9 @@
     "release": "npmpub"
   },
   "devDependencies": {
-    "rescript": "^10.0.0",
-    "husky": "^4.0.0",
-    "lint-staged": "^10.0.0",
+    "rescript": "^11.1.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.0",
     "npmpub": "^5.0.0",
     "prettier": "^2.0.0"
   },

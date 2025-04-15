@@ -1,6 +1,8 @@
 {
   "name": "@rescript-react-native/__template__",
-  "reason": { "react-jsx": 3 },
+  "jsx": {
+    "version": 4
+  },
   "package-specs": {
     "module": "commonjs",
     "in-source": true
@@ -12,7 +14,9 @@
       "subdirs": false
     }
   ],
-  "bsc-flags": ["-bs-no-version-header"],
+  "bsc-flags": [
+    "-bs-no-version-header"
+  ],
   "warnings": {
     "error": true
   },
